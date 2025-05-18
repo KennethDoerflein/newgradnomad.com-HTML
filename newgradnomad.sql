@@ -14,7 +14,7 @@ SET time_zone = "+00:00";
 
 CREATE DATABASE IF NOT EXISTS `newgradnomad` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 USE `newgradnomad`;
-GRANT SELECT, INSERT, DELETE, UPDATE ON newgradnomad.* TO ngn@localhost IDENTIFIED BY 'password';
+GRANT SELECT, INSERT, DELETE, UPDATE ON newgradnomad.* TO ngn@localhost IDENTIFIED BY 'PASSWORD_PLACEHOLDER';
 --
 -- Table structure for table `jobListings`
 --
